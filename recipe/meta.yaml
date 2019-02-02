@@ -1,8 +1,8 @@
 {% set name = "dotmap" %}
-{% set version = "1.2.20" %}
+{% set version = "1.2.39" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "4c11a97fc7b229dcb98aa5f3f121537054f3850131524127dab782b5ea54ff81" %}
+{% set hash = "b9254634a31838b20b47e2d17351cae643a7d1a5ae26c509d29798b295af3ac5" %}
 {% set build = 0 %}
 
 package:
