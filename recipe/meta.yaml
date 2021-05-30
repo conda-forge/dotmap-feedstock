@@ -1,5 +1,5 @@
 {% set name = "dotmap" %}
-{% set version = "1.3.19" %}
+{% set version = "1.3.23" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: df7d95a0521a6ce1f748b0349ccb0aed8bd486c125d1decce18038b0a348eb3b
+  sha256: 6aaeb51052a465a5aeff47d975d12802fc5d613674fb78b2ebf09ff5ff44c843
 
 build:
   noarch: python
@@ -28,7 +28,7 @@ test:
     - dotmap
   commands:
     - pip check
-  requires: 
+  requires:
     - pip
 
 about:
@@ -36,7 +36,7 @@ about:
   license_file: LICENSE.txt
   license: MIT
   license_family: MIT
-  summary: 'Ordered, dynamically-expandable dot-access dictionary'
+  summary: Ordered, dynamically-expandable dot-access dictionary
   dev_url: https://github.com/drgrib/dotmap
   doc_url: https://github.com/drgrib/dotmap
 
