@@ -1,5 +1,5 @@
 {% set name = "dotmap" %}
-{% set version = "1.3.28" %}
+{% set version = "1.3.29" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ae2a8362ab63b2dcb1ebcd73cfcd1a67a8418b3370e15dcd3aeb089c71a55e82
+  sha256: e66851f84cbc46baeeb9c508b792f104d33a3815166cbcb98cd39683ab73c511
 
 build:
   noarch: python
